@@ -1,0 +1,25 @@
+.imgcirculo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+nav{
+    background-color: #edb880 ;
+}
+.textnav{
+    font-family: 'Teko', sans-serif ;
+}
+ul{
+  list-style: none;
+
+}
+#colordeinicio{
+    color: black;
+}
+div{
+    max-width: 70%;
+    margin: auto;
+}
+body{
+    background-image: url(/img/fondo\ de\ la\ pagina.avif);
+}

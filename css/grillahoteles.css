@@ -1,0 +1,89 @@
+header{
+    position: sticky;
+    top: 0px;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: #edb880
+}
+.imgcirculito{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+li{
+    list-style: none;
+    
+}
+.textnav{
+    font-family: 'Teko', sans-serif ;
+    
+}
+a{
+    color: black;
+    text-decoration: dotted;
+}
+body{
+    background-image: url(/img/fondo\ de\ la\ pagina.avif);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.cardhoteles{
+    background-color: white;
+    border: 5px solid black;
+    margin-bottom: 50px; 
+    margin-top: 20px;      
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    transition: all 1s ease;
+    
+     
+}    
+.cardhoteles:hover{
+        transform: scale(1.2);
+        background-color: #edb880;
+    /* transform: translate(50px, -20px); */
+    /* transform: rotate(45deg) */
+}
+div{
+    max-width: 70%;
+    margin:auto;
+}
+.galeriadehotelesGrid{
+    border: 5px solid green;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 20px;
+}
+
+
+
+
+@media(max-width:1440px){
+   .galeriadehotelesGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+}
+@media(max-width:768px){
+    .galeriadehotelesGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+}
+.boton:hover{
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    border-radius: black;
+    cursor: pointer;  
+}

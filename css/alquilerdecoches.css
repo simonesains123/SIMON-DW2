@@ -1,0 +1,87 @@
+.imgcirculo2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+nav{
+    margin-bottom: 20px;
+    background-color: #edb880;
+}
+
+div{
+   max-width: 70%;
+   margin:auto
+}
+.lineas{
+    border: 1px solid red;
+    padding-right: 30px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    margin-bottom: 70px;
+    margin-right: 40px;
+}
+
+body{
+   background-image: url(https://img.freepik.com/foto-gratis/cerca-pared-textura-marmol-blanco_53876-139849.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.img1{
+    border: 10px solid black;
+    padding: 5px;
+   
+    
+}
+
+.div1{
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: dotted;
+}
+
+.textnav{
+    font-family: 'Teko', sans-serif;
+}
+
+header{
+    position: sticky;
+   top: 0px;
+}
+.img2{
+    border: 10px solid black;
+    padding: 5px;
+}
+.img3{
+    border: 10px solid black;
+    padding: 5px;
+}
+
+#galeriadeautos{
+    display: flex;
+    justify-content: space-around;    
+    flex-wrap: wrap;
+}
+
+@media(max-width:992px){
+    
+}
+
+@media(max-width:768px){
+    #galeriadeautos{
+        display: block;
+    }
+    .lineas{
+        margin: 20px auto;
+    }    
+}
+
+
+
